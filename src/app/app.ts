@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { PoseTracker } from './pose-tracker/pose-tracker';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, PoseTracker],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

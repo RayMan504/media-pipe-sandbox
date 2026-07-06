@@ -1,0 +1,23 @@
+:host {
+	display: block;
+}
+
+.pixi-container {
+	position: relative;
+	width: 640px;
+	height: 480px;
+	max-width: 100%;
+}
+
+.pixi-container canvas {
+	display: block;
+}
+
+.pixi-container .overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
