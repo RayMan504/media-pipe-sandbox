@@ -2,6 +2,23 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.15.
 
+This repository is a lightweight sandbox for experimenting with Angular, PixiJS, and MediaPipe. It is intended for local testing and prototyping only and is not meant for production use.
+
+## Getting started
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+If you want to explicitly install the graphics and vision libraries used in this sandbox, you can also run:
+
+```bash
+npm install pixi.js
+npm install @mediapipe/camera_utils @mediapipe/drawing_utils @mediapipe/pose @mediapipe/tasks-vision
+```
+
 ## Development server
 
 To start a local development server, run:
