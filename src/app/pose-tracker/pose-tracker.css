@@ -1,23 +1,26 @@
 :host {
-	display: block;
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111;
 }
 
 .pixi-container {
-	position: relative;
-	width: 640px;
-	height: 480px;
-	max-width: 100%;
+  position: relative;
+  width: min(90vw, 960px);
+  height: min(70vh, 720px);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .pixi-container canvas {
-	display: block;
-}
-
-.pixi-container .overlay {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
